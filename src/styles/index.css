@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: url('@/assets/images/bg-line.png');
+    font-family: 'Manrope', 'Avenir', sans-serif;
+    color: #2a3846;
+  }
+  html:before {
+    content: '';
+    display: block;
+    background: url('@/assets/images/bg-dust-960x640.png');
+    background-size: cover;
+    opacity: 0.5;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height:  100%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply mb-4;
+  }
+  p {
+    @apply mb-4;
+  }
+  a {
+    @apply font-bold;
+  }
+  a:hover {
+    @apply border-b-2 border-black;
+  }
+  #app > main { 
+    opacity: 0;
+  }
+}
