@@ -1,5 +1,5 @@
 <template>
-  <div class="scene" :class="{'launched': launched}">
+  <div class="scene mt-32 md:mt-64 mx-auto" :class="{'launched': launched}">
     <div class="cube front">
       <div class="side front"   @click="clickSide('history')">History</div>
       <div class="side back"    @click="clickSide('history')">History</div>
@@ -46,7 +46,6 @@ export default {
   width: 200px;
   height: 200px;
   border: 0px solid #CCC;
-  margin: 16rem auto 0rem auto;
   perspective: 400px;
   opacity: 1.0;
   transition: 1.5s;
