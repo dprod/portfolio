@@ -45,7 +45,7 @@ const projects = [
     descriptionHTML: `<p>This project is a work-in-progress MVP for an audiobook mobile application.
 It is an <a href="https://vuejs.org">Vue</a> app that will be wrapped in to an Android application using <a href="https://cordova.apache.org/">Cordova</a> and later will be developed in to an web app.
 </p>
-<p>The back-end and API is implemented using <a href="https://nodejs.org">Node</a> and <a href="https://expressjs.com">Express</a>. <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a> is currently used for the database and <a href="https://aws.amazon.com/s3/">Amazon S3</a> is used for storage.</p>
+<p>The back-end and API is made with <a href="https://nodejs.org">Node</a> and <a href="https://expressjs.com">Express</a>. <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a> is currently used for the database and <a href="https://aws.amazon.com/s3/">Amazon S3</a> is used for storage.</p>
 <p>I am also working on an admin interface where you can create and edit data (such as products) used in the application.</p>`,
     techs: [
       { 
@@ -74,9 +74,8 @@ It is an <a href="https://vuejs.org">Vue</a> app that will be wrapped in to an A
   },
   {
     name: 'Grid Sequencer',
-    descriptionHTML: `<p><span class="highlight">Grid Sequencer</a> is an experimental sequencer and synthesizer created with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>. It is still very much an work-in-progress as it suffers from some performance issues. The first, simpler version was made with vanilla JavaScript but I wanted to test and see how <a href="https://vuejs.org">Vue JS</a> would handle this project.</p>
-<p>It features 3 different sequencers, all with their own synthesizers with switchable oscillators and filters. These 3 synth engines can be sent to two master send effects: delay and reverb. You can also change the tempo and octave of the sequencer.</p>
-<p><i>Note:</i> Unfortunately works only on desktop at the moment</p>
+    descriptionHTML: `<p><span class="highlight">Grid Sequencer</a> is an sequencer and synthesizer created with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> and <a href="https://vuejs.org">Vue</a>. This version is highly experimental, suffers from some perfomance issues and works poorly on mobile. I am currently working on version 2.
+<p><b>Grid Sequencer</b> features 3 different sequencers, all with their own synthesizers with switchable oscillators and filters. These 3 synth engines can be sent to two master send effects: delay and reverb. You can also change the tempo and octave of the sequencer.</p>
 `,
     keywords: ['Vue JS', 'Web Audio API'],
     techs: [
@@ -96,7 +95,7 @@ It is an <a href="https://vuejs.org">Vue</a> app that will be wrapped in to an A
   },
   {
     name: 'Dejaru Soundworks',
-    descriptionHTML: `<p>This is a website I made for the soft-launch of my sound design business. It sells <a href="https://en.wikipedia.org/wiki/Virtual_Studio_Technology">VST</a> synthesizer presets and samples for electronic music production. This project is currently on hold as I decided to re-brand the business and finish a couple more products.</p>`,
+    descriptionHTML: `<p>I designed and developed this website using <a href="https://wordpress.org/">WordPress</a> and <a href="https://woocommerce.com/">WooCommerce</a> for the soft-launch of my sound design business. It sells <a href="https://en.wikipedia.org/wiki/Virtual_Studio_Technology">VST</a> synthesizer presets and samples used for electronic music production. This project is currently on hold as I decided to re-brand the business and finish a couple more products.</p>`,
     keywords: ['WordPress', 'Woocommerce', 'Docker'],
     techs: [
       { 
@@ -115,7 +114,7 @@ It is an <a href="https://vuejs.org">Vue</a> app that will be wrapped in to an A
   },
   {
     name: 'Portfolio',
-    descriptionHTML: `<p>Yeah, this site! Made with <a href="https://vuejs.org">Vue 3</a> + <a href="https://vitejs.dev/">Vite</a> + <a href="https://tailwindcss.com/">Tailwind CSS</a> and <a href="https://github.com/jeremyckahn/shifty">Shifty</a> for the small animations. Push to <a href="https://github.com">Github</a>, and it automatically uploads the build to my <a href="https://digitalocean.com">Digital Ocean VPS</a>.</p>`,
+    descriptionHTML: `<p>Yeah, this site! Made with <a href="https://vuejs.org">Vue 3</a> + <a href="https://vitejs.dev/">Vite</a> + <a href="https://tailwindcss.com/">Tailwind CSS</a> and <a href="https://github.com/jeremyckahn/shifty">Shifty</a> for the small animations. <a href="https://github.com">Github</a> <b>Actions</b> automatically deploy the build to my <a href="https://digitalocean.com">Digital Ocean Droplet</a>.</p>`,
     techs: [
       { 
         title: 'Vue', 
